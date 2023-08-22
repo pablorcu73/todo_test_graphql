@@ -4,4 +4,8 @@
 
 type Query {
   hellowWorl: String!
+  randonNumber: Float!
+
+  """From zero to argument TO (default 6)"""
+  randonFromZeroTo(to: Int): Int!
 }
