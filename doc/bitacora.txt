@@ -1,0 +1,37 @@
+22/08/2023
+- Se crea la apliacion TODO para manejar el backend con graphql
+- Se instala graphql
+- Se instala apolo server
+- Se crea query con parametros en HellowWorldResolver
+
+
+03/09/2023
+nest g mo todo
+
+nest g r todo --no-spec
+
+nest g s todo --no-spec
+
+fragmentos
+fragment fields on Todo{
+  id
+  description
+  done
+}
+
+- se creo todo.entity.ts
+
+
+04/09/2023
+- se creo create-todo.inputs.ts
+- se crea update-todo.inputs.ts
+
+- se crea mutation para crear y actualizar todo
+
+- se crea servicio para crear y actualizar todo
+
+
+
+
+
+
